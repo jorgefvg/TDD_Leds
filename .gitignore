@@ -1,7 +1,58 @@
-#######
-# macOS 
+Created by https://www.toptal.com/developers/gitignore/api/macos,linux,visualstudiocode,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,visualstudiocode,c++
 
-*.DS_Store
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -27,32 +78,32 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#########
-# Windows 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Folder config file
-Desktop.ini
+# Local History for Visual Studio Code
+.history/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Built Visual Studio Code Extensions
+*.vsix
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-# Windows shortcuts
-*.lnk
+# End of https://www.toptal.com/developers/gitignore/api/macos,linux,visualstudiocode,c++
 
-##########
-# Ceedling 
+### Local Settings ###
 
-binarios
-*.bin
+# Generated and compiled root folder
 build
