@@ -1,4 +1,5 @@
 SRC_DIR = ./src
+INC_DIR = ./inc
 OUT_DIR = ./build
 OBJ_DIR = $(OUT_DIR)/obj
 
