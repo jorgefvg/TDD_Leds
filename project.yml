@@ -74,7 +74,7 @@
   :gcovr:
     :html_medium_threshold: 75
     :html_high_threshold: 90
-  :uncovered_ignore_list: [src/main.c, src/gpio.c, src/main.h, src/gpio.h]
+  :uncovered_ignore_list: [src/main.c]
 
 #:tools:
 # Ceedling defaults to using gcc for compiling, linking, etc.
